@@ -1,0 +1,8 @@
+
+.barOne {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 37px;
+    margin-top: 5px;
+}

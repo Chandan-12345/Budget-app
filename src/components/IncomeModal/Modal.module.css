@@ -1,0 +1,73 @@
+
+.addButton {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  .closeButton {
+    background-color: #f44336;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  
+  .addButton :hover,
+  .addButton :focus {
+    background-color: #07c;
+  }
+  
+  .button-7:focus {
+    box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+  }
+  
+  .button-7:active {
+    background-color: #0064bd;
+    box-shadow: none;
+  }
+  
+  .dateinput {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  
+  .arrField {
+    width: 75%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  .dateinput {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .popupbtns {
+    display: flex;
+    justify-content: right;
+    gap: 17px;
+  }
+  
+  .formPopup{
+    margin: 50px;
+    background: lavender;
+    padding: 30px;
+    border-radius: 38px;
+  }
+
+  .addButton:disabled{
+    background:  #fff;
+    color: #ccc;
+    cursor: no-drop;
+ }

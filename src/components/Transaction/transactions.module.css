@@ -1,0 +1,177 @@
+.tableHead {
+  color: #f46524;
+  /* color: black; */
+  font-weight: 700;
+}
+.mainTable {
+  width: 100%;
+  border: none;
+}
+
+.main_content {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+/* .mainTable tr:first-child  {
+    font-size: 40px;
+} */
+
+.totalValue {
+  font-size: 13px;
+  color: darkgrey;
+  width: 100%;
+  border-bottom: 1px solid darkgray;
+  height: 20px;
+}
+
+.arrField {
+  width: 86%;
+  border: none;
+  /* background: antiquewhite; */
+  margin: 0.5px;
+}
+
+.bgcolor {
+  background: antiquewhite;
+  margin: 2px !important;
+}
+
+.trans_head {
+  color: #f46524;
+  font-weight: 700;
+}
+
+.homebtn {
+  background-color: #f46524;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.homebtn a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+.button-75:active {
+  outline: 0;
+}
+
+.button-75:hover {
+  outline: 0;
+}
+
+.button-75 span {
+  transition: all 200ms;
+}
+
+.button-75:hover span {
+  transform: scale(0.9);
+  opacity: 0.75;
+}
+
+@media screen and (max-width: 768px) {
+  .button-75 {
+    font-size: 15px;
+    height: 50px;
+  }
+
+  .button-75 span {
+    line-height: 50px;
+  }
+}
+
+.addpop {
+  background: aliceblue;
+  width: 73%;
+  height: 400px;
+  margin: auto;
+  border-radius: 50px;
+}
+
+.all_butns {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px 20px;
+}
+.btnpopup {
+  background-color: #334960;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 8px 20px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.tab_popup {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.exp_td {
+  /* border: 2px solid #fff; */
+  border-bottom: 1px solid #fff;
+  text-align: left;
+  padding: 2px;
+  background: antiquewhite;
+  margin: 2px !important;
+  padding-left: 8px;
+}
+
+.popup_row:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.transactionValue {
+  margin: 10px;
+  border-bottom: 1px solid darkgray;
+}
+
+.deleteExpense {
+  /* background-color: #334960; */
+  border: none;
+  color: #f46524;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* padding: 1px 20px; */
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+@media only screen and (max-width: 768px) {
+  .deleteExpense {
+    padding: 1px 5px;
+    font-size: unset;
+  }
+
+  .btnpopup {
+   
+    font-size: 14px;
+    padding: 8px 7px;
+  
+  }
+
+  td.transactionHeading {
+    padding-right: 5px;
+}
+
+.mainTable {
+ font-size: 12px;
+}
+
+.homebtn {
+
+  padding: 5px 10px;
+
+}
+}

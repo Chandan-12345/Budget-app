@@ -1,0 +1,56 @@
+.tableHead {
+    color: #f46524;
+    /* color: black; */
+    font-weight: 700;
+}
+.mainTable{
+    width: 100%;
+    border: none;
+}
+
+.main_content{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+}
+
+/* .mainTable tr:first-child  {
+    font-size: 40px;
+} */
+
+.totalValue{
+    font-size: 13px;
+    color: darkgrey;
+    width: 100%;
+    border-bottom: 1px solid darkgray;
+    height: 20px;
+}
+
+.arrField{
+    width: 26%;
+    border: none;
+    background: antiquewhite;
+    margin: 0.5px;
+}
+
+.bgcolor{
+    background: antiquewhite;
+    margin: 2px !important; 
+    padding-left: 8px;
+}
+
+@media only screen and (max-width : 768px) {
+    .bgcolor{
+       width : 100% !important;
+       font-size: 15px;
+    }
+
+    .arrField{
+        width: 80%;
+     
+    }
+
+    .tablehead{
+        padding-right: 5px;
+    }
+}

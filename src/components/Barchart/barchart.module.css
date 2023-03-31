@@ -1,0 +1,87 @@
+.bar_head {
+  font-size: 30px;
+  font-weight: 700;
+  color: #f46524;
+}
+
+.start_bal {
+  text-align: end;
+}
+
+.barPart {
+  display: flex;
+}
+
+.startfield {
+  width: 15%;
+  background: antiquewhite;
+  padding-left: 10px;
+}
+
+.saving_part {
+  text-align: center;
+  background-color: #ebedef;
+  padding: 101px;
+}
+
+.savingPercent {
+  font-size: 30px;
+}
+
+.bargroup {
+  margin-top: 3rem;
+}
+
+.barRow {
+  margin-top: 2rem;
+}
+
+.percent_text {
+  color: #8b9fb4;
+}
+
+.barRow {
+  margin-top: 2rem !important;
+}
+
+g.recharts-layer.recharts-cartesian-axis.recharts-yAxis.yAxis {
+  display: none !important;
+}
+
+.barvalues {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 218px;
+  gap: 60px;
+}
+
+line#sdds {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .startfield {
+    width: 30%;
+  }
+
+  .barwidth svg {
+    width: 300px !important;
+  }
+
+  .barvalues {
+    margin-right: unset;
+  }
+  .barwidth {
+    width: 300px !important;
+  }
+
+  .bar_head{
+    display: flex;
+    gap: 5px;
+    font-size: 16px;
+  }
+
+  .starthead{
+    font-size: 13px;
+  }
+}
